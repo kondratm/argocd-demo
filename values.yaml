@@ -1,0 +1,3 @@
+containerPort: 30000
+port: 8080
+replicasNumber: 2
