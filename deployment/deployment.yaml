@@ -18,7 +18,7 @@ spec:
           image: mcr.microsoft.com/dotnet/samples:aspnetapp
           ports:
             - containerPort: 8080
-  replicas: 3
+  replicas: 1
   selector: 
     matchLabels: 
       app: demo-app
